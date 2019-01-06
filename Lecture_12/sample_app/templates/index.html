@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        
+        {% include 'navbar.html' %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Number of articles</span>
+                            <h1>7</h1>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ url_for('articles') }}">Articles</a>
+                            <a href="#">Create Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
