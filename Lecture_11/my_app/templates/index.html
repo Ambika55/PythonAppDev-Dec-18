@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>Index</h1>
+
+
+        <p>This is made by {{author}}</p>
+        <p>Languages I know:</p>
+        <ul>
+            {% for language in languages %}
+                <li>{{ language }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
